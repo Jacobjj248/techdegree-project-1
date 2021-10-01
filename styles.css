@@ -84,11 +84,19 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+.experiance {
+  background-color: black;
+  color: goldenrod;
+  padding: 10px;
+  border-radius: 15px;
+  display: table;
+  margin: 50px auto;
+}
 .location {
   background-color: #222;
   color: goldenrod;
 }
-.card {
+.goals {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,7 +106,22 @@ header .profile-image:hover {
   border-radius: 50px;
   transition: all 0.5s;
 }
-.card:hover {
+.goals:hover {
+  border-color: #ff99ff;
+  transform: scale(1.1);
+}
+
+.exp {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 900px;
+  text-align: left;
+  background: lightgrey;
+  border-bottom: 4px solid #ccc;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+.exp:hover {
   border-color: #ff99ff;
   transform: scale(1.1);
 }
@@ -164,7 +187,7 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
-  transform: scale(1.5);
+  transform: scale(1.5) rotate(360deg);
 }
 .clearfix {
   clear: both;
